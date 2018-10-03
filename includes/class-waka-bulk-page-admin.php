@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The admin area specific functionality of the plugin.
  *

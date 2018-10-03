@@ -1,4 +1,3 @@
-
 <?php
 /**
  * @since             1.0.0
@@ -34,7 +33,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit('denied');
 }
-
 
 define( 'WAKA_BULK_PAGE_VERSION', '1.0.0' );
 define( 'WAKA_BULK_PAGE_FILE', __FILE__ ); // this file
