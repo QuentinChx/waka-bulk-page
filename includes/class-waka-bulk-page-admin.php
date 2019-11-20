@@ -128,6 +128,9 @@ class Waka_Bulk_Page_Admin
                 }
 
 
+                if(!empty($_POST['wbp-status'])){
+                    update_option('wbp_preferred_status', $_POST['wbp-status']);
+                }
                 if (!empty($_POST['wbp-page'])) {
 
                     $arrInserted = array();
@@ -167,7 +170,7 @@ class Waka_Bulk_Page_Admin
 
                         if (0 == $arrInserted[$id]) {
 
-                            $message_ko .= __('Error while inserting this page ' . $page['name'], 'wpb') . '<br/>';
+                            $message_ko .= __('Error while inserting this page ' . $page['name'], 'waka-bulk-page') . '<br/>';
 
                         } else {
 
@@ -244,13 +247,14 @@ class Waka_Bulk_Page_Admin
                         <p><label for="wbp-parent"><?php _e('Parent', 'waka-bulk-page') ?>:</label> <?php wp_dropdown_pages(array('sort_column' => 'menu_order', 'id' => 'wbp-parent', 'post_status' => 'draft,publish', 'show_option_none' => __('(No Parent)', 'waka-bulk-page'))); ?></p>
 
                         <p><?php
+                            $wbp_preferred_status = get_option('wbp_preferred_status', 'publish');
                             $statuses = get_post_statuses();
                             if (!empty($statuses)): ?>
 
                                 <label for="wbp-status"><?php _e('Status', 'waka-bulk-page') ?>:</label>
                                 <select name="wbp-status" id="wbp-status">
                                 <?php foreach ($statuses as $k => $v): ?>
-                                    <option value="<?= $k ?>"><?= $v ?></option>
+                                    <option value="<?= $k ?>" <?php selected($wbp_preferred_status, $k) ?>><?= $v ?></option>
                                 <?php endforeach; ?>
                                 </select>
                                 <?php
@@ -281,9 +285,9 @@ class Waka_Bulk_Page_Admin
                         $navMenus = get_registered_nav_menus();
                         if (!empty($navMenus)): ?>
 
-                            <label for="create_menu"><?php _e('Create a menu for these pages', 'wpb') ?></label>
+                            <label for="create_menu"><?php _e('Create a menu for these pages', 'waka-bulk-page') ?></label>
                             <select name="create_menu" id="create_menu">
-                                <option value=""><?php _e('No', 'wpb') ?></option>
+                                <option value=""><?php _e('No', 'waka-bulk-page') ?></option>
                                 <?php foreach ($navMenus as $k => $v): ?>
                                     <?php $menuExists = !empty($navMenuLocations[$k]) ?>
                                     <option value="<?= $k ?>"><?= $v ?><?php if ($menuExists): ?> *<?php endif; ?></option>
@@ -305,6 +309,11 @@ class Waka_Bulk_Page_Admin
                 </div>
             </form>
 
+            <div id="wbp-footer">
+                <p>
+                    <a href="https://wordpress.org/plugins/waka-bulk-page/" target="_blank">Waka Bulk Page</a>
+                </p>
+            </div>
         </div>
 
         <?php

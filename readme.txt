@@ -2,7 +2,7 @@
 Contributors: qchx
 Tags: bulk page, create pages, pages, setup, bulk page creator, developer
 Requires at least: 4.4
-Tested up to: 4.9
+Tested up to: 5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,11 @@ Just go to `Pages` => `Add multiple pages` to use the plugin.
 Install and activate the plugin from the 'Plugins' menu in WordPress as usual.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed some missing translations in french
+* Default status now to "publish"
+* Adds the "preferred status" variable which save the last choosen status
 
 = 1.0.0 =
 * Initial release
