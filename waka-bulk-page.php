@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit('denied');
 }
 
-define( 'WAKA_BULK_PAGE_VERSION', '1.0.0' );
+define( 'WAKA_BULK_PAGE_VERSION', '1.0.2' );
 define( 'WAKA_BULK_PAGE_FILE', __FILE__ ); // this file
 define( 'WAKA_BULK_PAGE_BASENAME', plugin_basename( WAKA_BULK_PAGE_FILE ) );
 

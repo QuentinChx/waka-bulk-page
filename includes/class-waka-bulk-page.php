@@ -38,7 +38,7 @@ class Waka_Bulk_Page {
         if ( defined( 'WAKA_BULK_PAGE_VERSION' ) ) {
             $this->version = WAKA_BULK_PAGE_VERSION;
         } else {
-            $this->version = '1.0.0';
+            $this->version = '1.0.2';
         }
         $this->plugin_name = 'waka-bulk-page';
 
