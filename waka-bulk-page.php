@@ -7,7 +7,7 @@
  * Plugin Name:       Waka Bulk Page
  * Plugin URI:        https://github.com/QuentinChx/waka-bulk-page.git
  * Description:       Bulk page creation for setting up quickly your website. Intuitive and easy to use.
- * Version:           1.0.0
+ * Version:           1.0.3
  * Author:            Waka
  * Author URI:        http://agence-waka.fr/
  * License:           GPL-2.0+
@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit('denied');
 }
 
-define( 'WAKA_BULK_PAGE_VERSION', '1.0.2' );
+define( 'WAKA_BULK_PAGE_VERSION', '1.0.3' );
 define( 'WAKA_BULK_PAGE_FILE', __FILE__ ); // this file
 define( 'WAKA_BULK_PAGE_BASENAME', plugin_basename( WAKA_BULK_PAGE_FILE ) );
 

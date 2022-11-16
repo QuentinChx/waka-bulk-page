@@ -2,10 +2,10 @@
 Contributors: qchx
 Tags: bulk page, create pages, pages, setup, bulk page creator, developer
 Requires at least: 4.4
-Tested up to: 5.6
+Tested up to: 6.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: trunk
+Stable tag: 1.0.3
 Requires PHP: 5.6
 
 Bulk page creation for setting up quickly your website. Intuitive and easy to use.
@@ -28,6 +28,10 @@ Just go to `Pages` => `Add multiple pages` to use the plugin.
 Install and activate the plugin from the 'Plugins' menu in WordPress as usual.
 
 == Changelog ==
+
+= 1.0.3 =
+* Support WP version to 6.1.1
+* Minor graphic adjustments
 
 = 1.0.2 =
 * Support WP version to 5.6

@@ -268,7 +268,7 @@ class Waka_Bulk_Page_Admin
                                 ?>
                                 <label for="wbp-template"><?php _e('Template', 'waka-bulk-page') ?>:</label>
                                 <select name="wbp-template" id="wbp-template">
-                                <option value="">(<?php _e('default tpl', 'waka-bulk-page') ?>)</option>
+                                <option value=""><?php _e('[template]', 'waka-bulk-page') ?>&nbsp;</option>
                                 <?php foreach ($templates as $k => $v) { ?>
                                     <option value="<?= $v ?>"><?= $k ?></option><?php
                                 } ?>

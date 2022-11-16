@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Waka Bulk Page\n"
-"POT-Creation-Date: 2018-10-03 15:57+0200\n"
-"PO-Revision-Date: 2018-10-03 15:58+0200\n"
+"POT-Creation-Date: 2022-11-16 12:19+0100\n"
+"PO-Revision-Date: 2022-11-16 12:21+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 3.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: waka-bulk-page.php\n"
@@ -21,40 +21,45 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/class-waka-bulk-page-admin.php:82
+#: includes/class-waka-bulk-page-admin.php:81
 msgid "Add multiple pages"
 msgstr "Ajouter plusieurs pages"
 
-#: includes/class-waka-bulk-page-admin.php:104
+#: includes/class-waka-bulk-page-admin.php:103
 msgid "Error while processing the request. Please try again."
 msgstr "Erreur lors du traitement de votre demande, veuillez réessayer."
 
-#: includes/class-waka-bulk-page-admin.php:171
+#: includes/class-waka-bulk-page-admin.php:173
 msgid "Error while inserting this page "
 msgstr "Erreur lors de l'insertion de cette page "
 
-#: includes/class-waka-bulk-page-admin.php:185
+#: includes/class-waka-bulk-page-admin.php:187
 msgid "Updated successfully!"
 msgstr "Mise à jour effectuée !"
 
 #. Plugin Name of the plugin/theme
-#: includes/class-waka-bulk-page-admin.php:195
+#: includes/class-waka-bulk-page-admin.php:197
 msgid "Waka Bulk Page"
 msgstr ""
 
-#: includes/class-waka-bulk-page-admin.php:206
+#: includes/class-waka-bulk-page-admin.php:208
 msgid "Existing pages"
 msgstr "Pages existantes"
 
-#: includes/class-waka-bulk-page-admin.php:221
+#: includes/class-waka-bulk-page-admin.php:217
+#: includes/class-waka-bulk-page-admin.php:305
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/class-waka-bulk-page-admin.php:224
 msgid "Create new pages"
 msgstr "Créer de nouvelles pages"
 
-#: includes/class-waka-bulk-page-admin.php:223
+#: includes/class-waka-bulk-page-admin.php:226
 msgid "Fill the following form to create new pages."
 msgstr "Remplissez le formulaire pour ajouter de nouvelles pages."
 
-#: includes/class-waka-bulk-page-admin.php:224
+#: includes/class-waka-bulk-page-admin.php:227
 msgid ""
 "One page per line. You can manage parent pages by starting the line with \"-"
 "\". You can manage as many levels as you want."
@@ -63,89 +68,85 @@ msgstr ""
 "ligne par \"-\". Vous pouvez gérer ainsi autant de niveaux que vous "
 "souhaitez."
 
-#: includes/class-waka-bulk-page-admin.php:228
+#: includes/class-waka-bulk-page-admin.php:231
 msgid "Example"
 msgstr "Exemple"
 
-#: includes/class-waka-bulk-page-admin.php:229
+#: includes/class-waka-bulk-page-admin.php:232
 msgid "Home"
 msgstr "Accueil"
 
-#: includes/class-waka-bulk-page-admin.php:230
+#: includes/class-waka-bulk-page-admin.php:233
 msgid "About us"
 msgstr "A propos"
 
-#: includes/class-waka-bulk-page-admin.php:231
+#: includes/class-waka-bulk-page-admin.php:234
 msgid "Our Team"
 msgstr "Notre équipe"
 
-#: includes/class-waka-bulk-page-admin.php:232
+#: includes/class-waka-bulk-page-admin.php:235
 msgid "Our Services"
 msgstr "Nos services"
 
-#: includes/class-waka-bulk-page-admin.php:233
+#: includes/class-waka-bulk-page-admin.php:236
 msgid "Our first product"
 msgstr "Le premier Produit"
 
-#: includes/class-waka-bulk-page-admin.php:234
+#: includes/class-waka-bulk-page-admin.php:237
 msgid "Our second product"
 msgstr "Le second produit"
 
-#: includes/class-waka-bulk-page-admin.php:235
+#: includes/class-waka-bulk-page-admin.php:238
 msgid "Contact us"
 msgstr "Contactez-nous"
 
-#: includes/class-waka-bulk-page-admin.php:236
+#: includes/class-waka-bulk-page-admin.php:239
 msgid "Where to find us"
 msgstr "Où nous trouver ?"
 
-#: includes/class-waka-bulk-page-admin.php:240
+#: includes/class-waka-bulk-page-admin.php:243
 msgid "List the new pages below"
 msgstr "Liste des nouvelles pages à créer"
 
-#: includes/class-waka-bulk-page-admin.php:244
+#: includes/class-waka-bulk-page-admin.php:247
 msgid "Parent"
 msgstr "Parent"
 
-#: includes/class-waka-bulk-page-admin.php:244
+#: includes/class-waka-bulk-page-admin.php:247
 msgid "(No Parent)"
 msgstr "(Pas de parent)"
 
-#: includes/class-waka-bulk-page-admin.php:250
+#: includes/class-waka-bulk-page-admin.php:254
 msgid "Status"
 msgstr "Statut"
 
-#: includes/class-waka-bulk-page-admin.php:265
+#: includes/class-waka-bulk-page-admin.php:269
 msgid "Template"
 msgstr "Template"
 
-#: includes/class-waka-bulk-page-admin.php:267
-msgid "default tpl"
-msgstr "tpl par défaut"
+#: includes/class-waka-bulk-page-admin.php:271
+msgid "[template]"
+msgstr "[modèle]"
 
-#: includes/class-waka-bulk-page-admin.php:277
+#: includes/class-waka-bulk-page-admin.php:281
 msgid "Add Pages"
 msgstr "Ajouter les pages"
 
-#: includes/class-waka-bulk-page-admin.php:284
+#: includes/class-waka-bulk-page-admin.php:288
 msgid "Create a menu for these pages"
 msgstr "Créer un menu pour ces pages"
 
-#: includes/class-waka-bulk-page-admin.php:286
+#: includes/class-waka-bulk-page-admin.php:290
 msgid "No"
 msgstr "Non"
 
-#: includes/class-waka-bulk-page-admin.php:293
+#: includes/class-waka-bulk-page-admin.php:297
 msgid "New menu name"
 msgstr "Nom du nouveau menu"
 
-#: includes/class-waka-bulk-page-admin.php:293
+#: includes/class-waka-bulk-page-admin.php:297
 msgid "* This menu already exists, it will be replaced by the new menu."
 msgstr "* Ce menu existe déjà, il sera remplacé par le nouveau menu."
-
-#: includes/class-waka-bulk-page-admin.php:301
-msgid "Save"
-msgstr "Enregistrer"
 
 #. translators: %d: ID of a post
 #: includes/class-waka-bulk-page-walker.php:130
@@ -176,6 +177,9 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://agence-waka.fr/"
 msgstr ""
+
+#~ msgid "default tpl"
+#~ msgstr "tpl par défaut"
 
 #~ msgid "Create multiple pages at once."
 #~ msgstr "Créer plusieurs pages d'un coup."

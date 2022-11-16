@@ -13,7 +13,7 @@
 #wbp-pages .page_item_new { font-weight: bold; }
 #wbp-pages .wbp-remove { display: inline-block; border-radius: 50%; text-decoration: none; width: 18px; height: 18px; line-height: 14px; text-align: center; padding: 0; margin-left: 5px; font-weight: normal; background: #d13d3d; color: #fff; font-size: 19px;}
 #wbp-pages .wbp-tpl { font-style: italic; padding: 0 15px; }
-#wbp-pages select {  margin-left: 2px; max-width:100px; font-weight: normal;  cursor:pointer; -webkit-appearance: none; -moz-appearance: none; text-indent: 1px; text-overflow: ''; background: none; border: none; box-shadow: none; text-align:center; }
+#wbp-pages select {  margin: 3px 0 0 10px; max-width:130px; font-weight: normal;  cursor:pointer; -webkit-appearance: none; -moz-appearance: none; text-indent: 1px; text-overflow: ''; background: #ddd; box-shadow: none; border:none; text-align: left; padding: 0 5px;}
 #wbp-pages > ul, #wbp-pages > ul ul {  margin: 0 0 0 1em; padding: 0;  list-style: none;   position: relative;  }
 #wbp-pages ul span { font-style:italic; }
 #wbp-pages ul span.pending { color: #ffa32e;}
